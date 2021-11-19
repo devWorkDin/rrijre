@@ -1,0 +1,54 @@
+.menu{
+    z-index: 10;
+
+    transition: all .7s;
+left:-100rem;
+width: 100%;
+position: fixed;
+height: 10vh;
+top: 0;
+}
+
+
+.menu_shown{
+    z-index: 10;
+    width: 40%;
+    height: 100vh;
+    transition: all .7s;
+left:0;
+right: 0;
+position: fixed;
+top: 0;
+bottom: 0;
+background-color: rgb(114, 111, 111);
+}
+
+
+
+.logo_menu{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 4rem;
+
+}
+
+.logo_menu>li{
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-left: -1rem;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+
+}
+
+
+
+.logo_menu>li:hover{
+    color: rosybrown;
+    transition: all ease-in-out .3s;
+}
+
+
